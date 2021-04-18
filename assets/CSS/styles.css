@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: #ffffff;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-name{
+    color: #005a87;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-items{
+    margin-right: 25px;
+    font-size: 20px;
+    color: #555;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-items:hover{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.hero-section{
+    height: 70vh;
+    padding: 40px;
+    background-color:#053b53 ;
+    text-align: center;
+}
+
+.greetings{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 10%;
+}
+
+.post{
+    color: #fff;
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+.wave{
+    width: 60px;
+    height: 60px;
+}
+
+.portfolio-button{
+    text-decoration: none;
+    color: #053b53;
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#about{
+    padding: 40px;
+}
+
+.about-heading, .education-heading{
+    text-align: center;
+    font-size: 40px;
+    color: #053b53;
+    margin-top: 60px;
+}
+
+.about-me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.details{
+    font-size: 20px;
+    color: #555;
+    line-height: 1.5;
+}
+
+span{
+    font-weight: bold;
+    color: #053b53;
+}
+
+.profile-image{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.socials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.social-links img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.social-links img:hover{
+    width: 80px;
+    height: 80px;
+}
+
+#projects{
+    background-color: #053b53;
+    margin-top: 30px;
+    padding: 40px;
+}
+
+.project-heading{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 70px;
+}
+
+.paragraph{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 20px;
+    color: #fff;
+}
+
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mini-project img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    object-position: top left;
+}
+
+#education{
+    padding: 40px;
+}
+
+.school{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.school-details{
+    margin-top: 40px;
+    text-align: center;
+    border: 5px solid #005a87;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.school-name{
+    color: #053b53;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.course, .duration{
+    margin-bottom: 10px;
+    color: #555;
+}
+
+#contact{
+    padding: 40px;
+    margin-top: 30px;
+    background-color: #053b53;;
+}
+
+.contact-me, .wish{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-me span a{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width:786px){
+    .nav-items{
+        font-size: 20px;
+    }
+    
+    .about-me{
+        flex-direction: column-reverse;
+    }
+
+    .details{
+        font-size: 18px;
+    }
+
+    .profile-image{
+        width: 300px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .mini-project img{
+        width: 450px;
+        height: 450px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .brand-logo{
+        margin-bottom: 20px;
+    }
+
+    .nav-items{
+        font-size: 18px;
+        text-decoration: underline;
+    }
+}
+
+
+@media screen and (max-width:425px){
+    .brand-logo{
+        margin-bottom: 20px;
+    }
+
+    .nav-items{
+        font-size: 15px;
+        text-decoration: underline;
+    }
+
+    .nav-items:hover{
+        font-size: 20px;
+    }
+
+    .hero-section{
+        height: 100vh;
+    }
+
+    .details{
+        font-size: 15px;
+    }
+
+    .profile-image{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+
+    .mini-project img{
+        width: 300px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+}
