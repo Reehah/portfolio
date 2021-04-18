@@ -50,6 +50,7 @@ body{
     padding: 40px;
     background-color:#053b53 ;
     text-align: center;
+    margin: auto;
 }
 
 .greetings{
@@ -221,7 +222,7 @@ span{
     .nav-items{
         font-size: 20px;
     }
-    
+
     .about-me{
         flex-direction: column-reverse;
     }
@@ -271,7 +272,7 @@ span{
     }
 
     .hero-section{
-        height: 100vh;
+        height: 75vh;
     }
 
     .details{
