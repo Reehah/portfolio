@@ -42,7 +42,7 @@ body{
 
 .nav-items:hover{
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .hero-section{
@@ -220,7 +220,11 @@ span{
 
 @media screen and (max-width:786px){
     .nav-items{
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    .nav-items:hover{
+        font-size: 22px;
     }
 
     .about-me{
@@ -251,7 +255,6 @@ span{
     }
 
     .nav-items{
-        font-size: 18px;
         text-decoration: underline;
     }
 }
@@ -268,16 +271,27 @@ span{
     }
 
     .nav-items:hover{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .hero-section{
-        height: 75vh;
+        height: 72vh;
     }
 
     .details{
         font-size: 15px;
     }
+
+    .social-links img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .social-links img:hover{
+        width: 60px;
+        height: 60px;
+    }
+    
 
     .profile-image{
         width: 200px;
